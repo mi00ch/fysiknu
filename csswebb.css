@@ -60,21 +60,23 @@ body {
 
 #kraftlnk {
   display: block;
-  padding: 6rem 6rem;
-  margin: 2rem 2rem 2rem 2rem;
+  padding: 6rem 3rem;
+  margin: 2rem 50rem 2rem 4rem;
   border-radius: 12px 12px 12px 12px;
   background: url(img/krafterimg.jpg) center / cover ;
-  color: rgb(0, 17, 255);
+  color: rgb(106, 193, 255);
   box-shadow: inset 0 0 20px 10px rgba(0, 0, 0, 0.8);
+  text-shadow: 0px 2px 2px #000000;
 }
 
 
 #hastighetlnk {
   display: block;
-  padding: 6rem 6rem;
-  margin: 2rem 2rem 2rem 2rem;
+  padding: 6rem 3rem;
+  margin: 2rem 50rem 2rem 4rem;
   border-radius: 12px 12px 12px 12px;
-  background: url(../img/___.jpg) center / cover ;
+  background: url(img/krafterimg.jpg) center / cover ;
   color: rgb(0, 17, 255);
   box-shadow: inset 0 0 20px 10px rgba(0, 0, 0, 0.8);
+  text-shadow: 0px 2px 2px #000000;
 }
