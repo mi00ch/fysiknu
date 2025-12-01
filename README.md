@@ -1,2 +1,0 @@
-# fysiknu
-My repository
