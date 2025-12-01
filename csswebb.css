@@ -16,39 +16,37 @@ body {
 
 }
 
-
-#titleb {
+#titleb {   /* <h1> selector of htmlwebb.html */
     color: white;
     background-color: blue;
     padding-left: 56px;
 }
 
-#elboi {
+#elboi {    /* el.html */
     color: blue;
     background-color: white;
 }
 
-#krafterimg {
+#krafterimg {   /* hastighet.html, krafter.html och termofysik.html */
     border: #75474a 5px solid;
     display: inline-block;
     margin: 0 auto;
     text-align: right;
 }
 
-#krafterboi {
+#krafterboi {   /* hastighet.html, krafter.html och termofysik.html */
     color: blue;
     background-color: white;
     margin: 25px
 }
 
-#albert {
+#albert {   /* ? */
     display: flex;
     margin-left: 20px;
     margin-top: 45px;
-
 }
 
-#krets {
+#krets {   /* ? */
     border: #75474a 5px solid;
     display: inline-block;
     margin: 0 auto;
@@ -57,8 +55,7 @@ body {
     margin: 20px;
 }
 
-
-#kraftlnk {
+#kraftlnk {   /* htmlwebb.html */
   display: block;
   padding: 6rem 3rem;
   margin: 2rem 50rem 2rem 4rem;
@@ -69,8 +66,7 @@ body {
   text-shadow: 0px 2px 2px #000000;
 }
 
-
-#hastighetlnk {
+#hastighetlnk {   /* htmlwebb.html */
   display: block;
   padding: 6rem 3rem;
   margin: 2rem 50rem 2rem 4rem;
@@ -78,5 +74,15 @@ body {
   background: url(img/krafterimg.jpg) center / cover ;
   color: rgb(0, 17, 255);
   box-shadow: inset 0 0 20px 10px rgba(0, 0, 0, 0.8);
+<<<<<<< HEAD
   text-shadow: 0px 2px 2px #000000;
 }
+=======
+}
+
+/*
+.app
+#webby
+#amne
+*/
+>>>>>>> 1006ecf19cf7f6a2ac463e3e5ca06b7ca98790fe
