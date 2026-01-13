@@ -1,58 +1,63 @@
 * {
-    margin: 0;
-    padding: 0;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    box-sizing: border-box;
-}
-
-head {
-    color: white;
-    background-color: blue;
+  margin: 0;
+  padding: 0;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  box-sizing: border-box;
 }
 
 body {
-    color: blue;
-    background-color: white;
-
+  color: blue;
+  background-color: white;
 }
 
-#titleb {   /* <h1> selector of htmlwebb.html */
-    color: white;
-    background-color: blue;
-    padding-left: 56px;
+header {
+  color: white;
+  position: static;
+  height: 10vh;
+  width: 100%;
+  border-radius: 0 0 10px 10px;
+  background-image: linear-gradient(to bottom, rgba(0, 0, 255, 0.8) 80%, rgba(0, 0, 255, 0));
+}
+
+img {
+  object-fit: cover;
+}
+
+#hdrbtn {
+  height: 20px;
+  width: 20px;
+  background-color: blue;
+}
+
+main {
+  text-align: center;
 }
 
 #elboi {    /* el.html */
-    color: blue;
-    background-color: white;
+  color: blue;
+  background-color: white;
 }
 
 #krafterimg {   /* hastighet.html, krafter.html och termofysik.html */
-    border: #75474a 5px solid;
-    display: inline-block;
-    margin: 0 auto;
-    text-align: right;
+  border: #75474a 5px solid;
+  display: inline-block;
+  margin: 0 auto;
+  text-align: right;
 }
 
 #krafterboi {   /* hastighet.html, krafter.html och termofysik.html */
-    color: blue;
-    background-color: white;
-    margin: 25px
-}
-
-#albert {   /* ? */
-    display: flex;
-    margin-left: 20px;
-    margin-top: 45px;
+  color: blue;
+  background-color: white;
+  margin: 25px
 }
 
 #krets {   /* ? */
-    border: #75474a 5px solid;
-    display: inline-block;
-    margin: 0 auto;
-    text-align: right;
-    height: 40px;
-    margin: 20px;
+  border: #75474a 5px solid;
+  display: inline-block;
+  margin: 0 auto;
+  text-align: right;
+  height: 40px;
+  margin: 20px;
 }
 
 #kraftlnk {   /* htmlwebb.html */
