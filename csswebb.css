@@ -60,6 +60,11 @@ main {
   margin: 20px;
 }
 
+#amne {
+  display: grid;
+  grid-template-columns: auto auto;
+}
+
 #kraftlnk {   /* htmlwebb.html */
   display: block;
   padding: 6rem 3rem;
