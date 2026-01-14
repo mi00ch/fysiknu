@@ -63,54 +63,39 @@ main {
 #amne {
   display: grid;
   grid-template-columns: auto auto;
+  grid-gap: 20px;
+}
+
+#amne a {
+  display: block;
+  border-radius: 12px 12px 12px 12px;
+  box-shadow: inset 0 0 20px 10px rgba(0, 0, 0, 0.8);
+  text-shadow: 0px 2px 2px #000000;
+  padding: 6rem 3rem;
+  margin: 2rem 50rem 2rem 4rem;
 }
 
 #kraftlnk {   /* htmlwebb.html */
-  display: block;
-  padding: 6rem 3rem;
-  margin: 2rem 50rem 2rem 4rem;
-  border-radius: 12px 12px 12px 12px;
   background: url(img/krafterimg.jpg) center / cover ;
   color: rgb(106, 193, 255);
-  box-shadow: inset 0 0 20px 10px rgba(0, 0, 0, 0.8);
-  text-shadow: 0px 2px 2px #000000;
 }
 
 #hastighetlnk {   /* htmlwebb.html */
-  display: block;
-  padding: 6rem 3rem;
-  margin: 2rem 50rem 2rem 4rem;
-  border-radius: 12px 12px 12px 12px;
   background: url(img/f4-7-1-lik-300x174.png) center / cover ;
   color: rgb(0, 255, 26);
-  box-shadow: inset 0 0 20px 10px rgba(0, 0, 0, 0.8);
-  text-shadow: 0px 2px 2px #000000;
 }
 
 #termolnk {   /* htmlwebb.html */
-  display: block;
-  padding: 6rem 3rem;
-  margin: 2rem 50rem 2rem 4rem;
-  border-radius: 12px 12px 12px 12px;
   background: url(img/unnamed__10_.jpg) center / cover ;
   color: rgb(255, 0, 0);
-  box-shadow: inset 0 0 20px 10px rgba(0, 0, 0, 0.8);
-  text-shadow: 0px 2px 2px #000000;
 }
 
 #ellnk {   /* htmlwebb.html */
-  display: block;
-  padding: 6rem 3rem;
-  margin: 2rem 50rem 2rem 4rem;
-  border-radius: 12px 12px 12px 12px;
   background: url(img/image016-5.png) center / cover ;
   color: rgb(255, 255, 0);
-  box-shadow: inset 0 0 20px 10px rgba(0, 0, 0, 0.8);
-  text-shadow: 0px 2px 2px #000000;
 }
 
 /*
 .app
 #webby
-#amne
 */
