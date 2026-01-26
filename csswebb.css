@@ -27,7 +27,7 @@ img {
 }
 
 #kraftimg {
-  width: 400px;
+  width: 20rem;
   height: 200px;
 }
 
@@ -59,7 +59,7 @@ main {
 
 
 
-#text {   /* hastighet.html, krafter.html och termofysik.html */
+#text {  
   color: rgb(0, 0, 255);
   background-color: rgb(255, 255, 255);
   margin: 25px
@@ -109,6 +109,54 @@ main {
   padding: 1rem 1rem;
   margin: 1rem 1rem auto;
 }
+
+
+/*-- QUIZ --*/
+
+.alter {
+  font-weight: 300;
+  display: inline-block;
+  
+  margin-bottom: 8px;
+}
+
+form {
+  max-width: 30em;
+  margin: 10px auto;
+  padding: 10px 20px;
+  background: #f4f7f8;
+  border-radius: 8px;
+}
+
+.nummerquiz {
+  background-color: #0015ff;
+  color: #fff;
+  height: 30px;
+  width: 30px;
+  display: inline-block;
+  font-size: 0.8em;
+  margin-right: 4px;
+  line-height: 30px;
+  text-align: center;
+  text-shadow: 54px 0 rgba(255, 255, 255, 0.2);
+  border-radius: 100%;
+}
+
+#svar_knapp {
+  padding: 19px 39px 18px 39px;
+  color: #FFF;
+  background-color: #4bc970;
+  font-size: 23px;
+  text-align: center;
+  font-style: normal;
+  border-radius: 5px;
+  width: 100%;
+  box-shadow: 0 1px 3px rgba(255,255,255,0.1) inset;
+  margin-bottom: 10px;
+}
+
+/*----- */
+
 /*
 .app
 #webby
