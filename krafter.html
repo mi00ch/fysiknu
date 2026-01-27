@@ -41,7 +41,7 @@
         <li><strong>Verkan och motverkan:</strong> För varje kraft som verkar på ett föremål, finns en lika stor kraft men i motsatt riktning.</li>
       </ol>
     </div>
-     <form action="quizer.js" method="post">
+     <form onsubmit="return rättaQuiz();">
         <h1><center>Quiz test</center></h1>
         
         <fieldset>
@@ -51,17 +51,42 @@
           <label><center>FRÅGA1</label><br></center>
           <input type="radio" id="alt1_1" value="alt1_1" name="fr1"><label for="alt1_1" class="alter">ALT1</label><br>
           <input type="radio" id="alt2_1" value="alt2_1" name="fr1"><label for="alt2_1" class="alter">ALT2</label><br>
+          <input type="radio" id="alt3_1" value="alt3_1" name="fr1"><label for="alt3_1" class="alter">ALT3</label><br>
+
+          <p id="frga1"></p>
             
+
+
           <br><legend><span class="nummerquiz">2</span>Fråga 2</legend>
+
           <label><center>FRÅGA2</label><br></center>
           <input type="radio" id="alt1_2" value="alt1_2" name="fr2"><label for="alt1_2" class="alter">ALT1</label><br>
           <input type="radio" id="alt2_2" value="alt2_2" name="fr2"><label for="alt2_2" class="alter">ALT2</label><br>
-          
+          <input type="radio" id="alt3_2" value="alt3_2" name="fr2"><label for="alt3_2" class="alter">ALT3</label><br>
+
+          <p id="frga2"></p>
+
+
+
+          <br><legend><span class="nummerquiz">3</span>Fråga 3</legend>
+
+          <label><center>FRÅGA3</label><br></center>
+          <input type="radio" id="alt1_3" value="alt1_3" name="fr3"><label for="alt1_3" class="alter">ALT1</label><br>
+          <input type="radio" id="alt2_3" value="alt2_3" name="fr3"><label for="alt2_3" class="alter">ALT2</label><br>
+          <input type="radio" id="alt3_3" value="alt3_3" name="fr3"><label for="alt3_3" class="alter">ALT3</label><br>
+
+          <p id="frga3"></p>
           
         </fieldset>
         
         <button type="submit" id="svar_knapp">RÄTTA</button>
+
+        <div id="poangBox">
+          <h2>Resultat</h2>
+          <p id="resultatText">Resultat</p>
+        </div>
+
       </form>
-      
+      <script src="quizer.js"></script>
   </body>
 </html>
