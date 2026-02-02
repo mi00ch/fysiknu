@@ -40,39 +40,36 @@
         konstant acceleration och hur den hänger samman med hastighet, tid och sträcka.
       </p>
       <center><img src="img/b4f83277-a569-4b0f-ae93-b098014327d9_formel-accerleration.jpg" id="hastimg" /></center>
-     <form onsubmit="return rättaQuiz();">
-        <h1><center>Quiz test</center></h1>
+     <form onsubmit="return rättaQuiz('alt1_1', 'alt3_2', 'alt2_3')">
+        <h1><center>Quiz test</center></h1><br>
         
         <fieldset>
           
-          <legend><span class="nummerquiz">1</span>Fråga 1</legend>
-          
-          <label><center>FRÅGA1</label><br></center>
-          <input type="radio" id="alt1_1" value="alt1_1" name="fr1"><label for="alt1_1" class="alter">ALT1</label><br>
-          <input type="radio" id="alt2_1" value="alt2_1" name="fr1"><label for="alt2_1" class="alter">ALT2</label><br>
-          <input type="radio" id="alt3_1" value="alt3_1" name="fr1"><label for="alt3_1" class="alter">ALT3</label><br>
+          <legend><span class="nummerquiz">1</span><strong>Vad är hastighet?</strong></legend><br>
+
+          <input type="radio" id="alt1_1" value="alt1_1" name="fr1"><label for="alt1_1" class="alter">Hur snabbt ett objekt rör sig och i vilken riktning</label><br>
+          <input type="radio" id="alt2_1" value="alt2_1" name="fr1"><label for="alt2_1" class="alter">Hur långt ett objekt rör sig</label><br>
+          <input type="radio" id="alt3_1" value="alt3_1" name="fr1"><label for="alt3_1" class="alter">Hur mycket ett objekt väger</label><br>
 
           <p id="frga1"></p>
             
 
 
-          <br><legend><span class="nummerquiz">2</span>Fråga 2</legend>
+          <br><legend><span class="nummerquiz">2</span><strong>Vilken formel används för att räkna ut hastighet?</strong></legend><br>
 
-          <label><center>FRÅGA2</label><br></center>
-          <input type="radio" id="alt1_2" value="alt1_2" name="fr2"><label for="alt1_2" class="alter">ALT1</label><br>
-          <input type="radio" id="alt2_2" value="alt2_2" name="fr2"><label for="alt2_2" class="alter">ALT2</label><br>
-          <input type="radio" id="alt3_2" value="alt3_2" name="fr2"><label for="alt3_2" class="alter">ALT3</label><br>
+          <input type="radio" id="alt1_2" value="alt1_2" name="fr2"><label for="alt1_2" class="alter">v = t / s</label><br>
+          <input type="radio" id="alt2_2" value="alt2_2" name="fr2"><label for="alt2_2" class="alter">v = s · a</label><br>
+          <input type="radio" id="alt3_2" value="alt3_2" name="fr2"><label for="alt3_2" class="alter">v = s / t</label><br>
 
           <p id="frga2"></p>
 
 
 
-          <br><legend><span class="nummerquiz">3</span>Fråga 3</legend>
+          <br><legend><span class="nummerquiz">3</span><strong>Hur definieras acceleration?</strong></legend><br>
 
-          <label><center>FRÅGA3</label><br></center>
-          <input type="radio" id="alt1_3" value="alt1_3" name="fr3"><label for="alt1_3" class="alter">ALT1</label><br>
-          <input type="radio" id="alt2_3" value="alt2_3" name="fr3"><label for="alt2_3" class="alter">ALT2</label><br>
-          <input type="radio" id="alt3_3" value="alt3_3" name="fr3"><label for="alt3_3" class="alter">ALT3</label><br>
+          <input type="radio" id="alt1_3" value="alt1_3" name="fr3"><label for="alt1_3" class="alter">Hastighet delat med sträcka</label><br>
+          <input type="radio" id="alt2_3" value="alt2_3" name="fr3"><label for="alt2_3" class="alter">Ändring i hastighet under en viss tid</label><br>
+          <input type="radio" id="alt3_3" value="alt3_3" name="fr3"><label for="alt3_3" class="alter">Sträcka delat med tid i kvadrat</label><br>
 
           <p id="frga3"></p>
           
@@ -82,7 +79,7 @@
 
         <div id="poangBox">
           <h2>Resultat</h2>
-          <p id="resultatText">Resultat</p>
+          <p id="resultatText">...</p>
         </div>
 
       </form>

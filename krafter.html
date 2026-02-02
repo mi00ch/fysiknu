@@ -41,39 +41,36 @@
         <li><strong>Verkan och motverkan:</strong> För varje kraft som verkar på ett föremål, finns en lika stor kraft men i motsatt riktning.</li>
       </ol>
     </div>
-     <form onsubmit="return rättaQuiz();">
-        <h1><center>Quiz test</center></h1>
+     <form onsubmit="return rättaQuiz('alt2_1', 'alt3_2', 'alt2_3')">
+        <h1><center>Quiz test</center></h1><br>
         
         <fieldset>
           
-          <legend><span class="nummerquiz">1</span>Fråga 1</legend>
-          
-          <label><center>FRÅGA1</label><br></center>
-          <input type="radio" id="alt1_1" value="alt1_1" name="fr1"><label for="alt1_1" class="alter">ALT1</label><br>
-          <input type="radio" id="alt2_1" value="alt2_1" name="fr1"><label for="alt2_1" class="alter">ALT2</label><br>
-          <input type="radio" id="alt3_1" value="alt3_1" name="fr1"><label for="alt3_1" class="alter">ALT3</label><br>
+          <legend><span class="nummerquiz">1</span><strong>Vad är kraft?</strong></legend><br>
+
+          <input type="radio" id="alt1_1" value="alt1_1" name="fr1"><label for="alt1_1" class="alter">Ett mått på hur tungt ett föremål är</label><br>
+          <input type="radio" id="alt2_1" value="alt2_1" name="fr1"><label for="alt2_1" class="alter">Ett mått på en påverkan som orsakar ändring i rörelse</label><br>
+          <input type="radio" id="alt3_1" value="alt3_1" name="fr1"><label for="alt3_1" class="alter">Ett mått på ett föremåls volym</label><br>
 
           <p id="frga1"></p>
             
 
 
-          <br><legend><span class="nummerquiz">2</span>Fråga 2</legend>
+          <br><legend><span class="nummerquiz">2</span><strong>Vilken enhet används för att mäta kraft?</strong></legend><br>
 
-          <label><center>FRÅGA2</label><br></center>
-          <input type="radio" id="alt1_2" value="alt1_2" name="fr2"><label for="alt1_2" class="alter">ALT1</label><br>
-          <input type="radio" id="alt2_2" value="alt2_2" name="fr2"><label for="alt2_2" class="alter">ALT2</label><br>
-          <input type="radio" id="alt3_2" value="alt3_2" name="fr2"><label for="alt3_2" class="alter">ALT3</label><br>
+          <input type="radio" id="alt1_2" value="alt1_2" name="fr2"><label for="alt1_2" class="alter">Joule (J)</label><br>
+          <input type="radio" id="alt2_2" value="alt2_2" name="fr2"><label for="alt2_2" class="alter">Meter per sekund (m/s)</label><br>
+          <input type="radio" id="alt3_2" value="alt3_2" name="fr2"><label for="alt3_2" class="alter">Newton (N)</label><br>
 
           <p id="frga2"></p>
 
 
 
-          <br><legend><span class="nummerquiz">3</span>Fråga 3</legend>
+          <br><legend><span class="nummerquiz">3</span><strong>Vad heter den kraft som motverkar rörelsen mellan två ytor i kontakt?</strong></legend><br>
 
-          <label><center>FRÅGA3</label><br></center>
-          <input type="radio" id="alt1_3" value="alt1_3" name="fr3"><label for="alt1_3" class="alter">ALT1</label><br>
-          <input type="radio" id="alt2_3" value="alt2_3" name="fr3"><label for="alt2_3" class="alter">ALT2</label><br>
-          <input type="radio" id="alt3_3" value="alt3_3" name="fr3"><label for="alt3_3" class="alter">ALT3</label><br>
+          <input type="radio" id="alt1_3" value="alt1_3" name="fr3"><label for="alt1_3" class="alter">Normalkraften</label><br>
+          <input type="radio" id="alt2_3" value="alt2_3" name="fr3"><label for="alt2_3" class="alter">Friktionskraften</label><br>
+          <input type="radio" id="alt3_3" value="alt3_3" name="fr3"><label for="alt3_3" class="alter">tyngdkraften</label><br>
 
           <p id="frga3"></p>
           
@@ -83,7 +80,7 @@
 
         <div id="poangBox">
           <h2>Resultat</h2>
-          <p id="resultatText">Resultat</p>
+          <p id="resultatText">...</p>
         </div>
 
       </form>

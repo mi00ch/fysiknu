@@ -15,21 +15,70 @@
     <div id="text">
       <p>
         Elektricitet är ett grundläggande naturfenomen som bygger på laddade partiklar, främst elektroner. 
-        Alla atomer består av en kärna med protoner och neutroner, och runt denna rör sig elektroner. Spänning är potentialskillnaden, 
-        det vill säga skillnaden i elektrisk laddning mellan olika punkter. När elektroner förflyttar sig från en plats till en annan 
-        uppstår elektrisk ström som är orsakad av spänningen.<br><br>
+        Alla atomer består av en kärna med protoner och neutroner, och runt denna rör sig elektroner. 
+        Elektronerna kan röra sig från en atom till en annan, och det är denna rörelse som skapar elektrisk ström.
+        Spänning är skillnaden i elektrisk laddning mellan två punkter och kallas också elektrisk potentialskillnad. 
+        Det är spänningen som “driver” elektronerna genom en ledare, som till exempel en tråd. 
+        När elektronerna rör sig från en punkt med högre potential till en punkt med lägre potential uppstår elektrisk
+         ström. Elektrisk ström är alltså flödet av elektroner genom en ledare, och mäts i enheten ampere (A). 
+         Hur lätt elektronerna kan röra sig påverkas av resistansen, som är ett mått på hur mycket ett material 
+         motstår strömmen. Resistansen mäts i enheten ohm (Ω).<br><br>
       </p>
       <p>
         <strong>I den här bilden</strong> ser vi ett krets som består av ett batteri och en lampa. Detta bildas ett slutet krets så att elektroner kan åka förbi.
       </p>
       <center><img src="img/sluten-krets_1_orig.png" id="krets" /></center>
-      <h3>Formel för spänning, det vill säga elektrisk potential är U = I * R<br><br></h3>
+      <h3>Formel för spänning, det vill säga elektrisk potential är U = I * R. Detta är Ohms lag.<br><br></h3>
       <ol>
         <li>U är spänningen, och enheten för spänning är Volt</li>
         <li>I är strömen, och enheten för ström är Ampere</li>
         <li>R är resistansen, och enheten för resistans är Ohm</li>
-      </ol>
+      </ol><br>
     </div>
+      <form onsubmit="return rättaQuiz('alt3_1', 'alt2_2', 'alt1_3')">
+        <h1><center>Quiz test</center></h1><br>
+        
+        <fieldset>
+          
+          <legend><span class="nummerquiz">1</span><strong>Vad är elektrisk spänning?</strong></legend><br>
+
+          <input type="radio" id="alt1_1" value="alt1_1" name="fr1"><label for="alt1_1" class="alter">Flödet av elektroner genom en ledare</label><br>
+          <input type="radio" id="alt2_1" value="alt2_1" name="fr1"><label for="alt2_1" class="alter">Motståndet i ett material mot ström</label><br>
+          <input type="radio" id="alt3_1" value="alt3_1" name="fr1"><label for="alt3_1" class="alter">Skillnaden i elektrisk laddning mellan två punkter</label><br>
+
+          <p id="frga1"></p>
+            
+
+
+          <br><legend><span class="nummerquiz">2</span><strong>Vilken enhet mäts elektrisk ström i?</strong></legend><br>
+
+          <input type="radio" id="alt1_2" value="alt1_2" name="fr2"><label for="alt1_2" class="alter">Volt (V)</label><br>
+          <input type="radio" id="alt2_2" value="alt2_2" name="fr2"><label for="alt2_2" class="alter">Ampere (A)</label><br>
+          <input type="radio" id="alt3_2" value="alt3_2" name="fr2"><label for="alt3_2" class="alter">Ohm (Ω)</label><br>
+
+          <p id="frga2"></p>
+
+
+
+          <br><legend><span class="nummerquiz">3</span><strong>Vi bestämer oss att koppla en batteri med en LED. 
+            Batterin har en spänning på 9V. LED har en resistans på 2.5 Ohm. Hur mycket Ampere går igenom den LEDn?</strong></legend><br>
+
+          <input type="radio" id="alt1_3" value="alt1_3" name="fr3"><label for="alt1_3" class="alter">3.6 A</label><br>
+          <input type="radio" id="alt2_3" value="alt2_3" name="fr3"><label for="alt2_3" class="alter">2.25 A</label><br>
+          <input type="radio" id="alt3_3" value="alt3_3" name="fr3"><label for="alt3_3" class="alter">4.5 A</label><br>
+
+          <p id="frga3"></p>
+          
+        </fieldset>
+        
+        <button type="submit" id="svar_knapp">RÄTTA</button>
+
+        <div id="poangBox">
+          <h2>Resultat</h2>
+          <p id="resultatText">...</p>
+        </div>
+      </form>
+      <script src="quizer.js"></script>
   </body>
 
 </html>

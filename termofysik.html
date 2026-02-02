@@ -17,13 +17,69 @@
 
     <div id="text">
       <p>
-        Termofysik är den ämnet/gren inom fysik som handlar om värme, temperatur och hur de kopplas 
-        till energi. Det finns många olika enheter för temperatur som Kelvin, Celsius och Farhenheit.
-      </p>
+        Termofysik är den gren inom fysiken som studerar värme, temperatur och deras samband med energi. 
+        Den handlar om hur värme överförs mellan olika system, hur temperatur påverkar material och hur energi kan 
+        omvandlas från en form till en annan. Termofysik är också grundläggande för att förstå fenomen som värmeledning, 
+        strålning och konvektion. Termofysik förklarar också viktiga principer som energins bevarande och termodynamikens lagar, 
+        som styr hur värme och arbete kan omvandlas mellan varandra. 
+        Den används inom många områden, från vardagliga apparater som kylskåp och värmeelement till 
+        industriella processer och klimatforskning.
+      </p><br>
       <p>
-        <br><strong>I den här bilden</strong> ser vi en normal formel som ingår inom termofysik. Det är formeln för den specifika värmekapaciteten.<br>
+        Temperatur är ett mått på hur varm eller kall en kropp är, och det kan mätas med olika skalor som:
+      </p><br>
+      <ol>
+        <li><strong>Kelvin (K):</strong> Den absoluta temperaturskalan som används inom vetenskapen. 0 K motsvarar den absoluta nollpunkten, där all atomrörelse upphör. (-273° i Celcius)</li><br>
+        <li><strong>Celsius (°C):</strong> Den vanligaste temperaturskalan i vardagen, där 0 °C är vattnets fryspunkt och 100 °C är vattnets kokpunkt vid normalt tryck.</li><br>
+        <li><strong>Fahrenheit (°F):</strong> En temperaturskala som främst används i USA, där vattnets fryspunkt är 32 °F och kokpunkt 212 °F. Formeln för att konvertera Fahrenheit till Celcius är: <strong>°C = (°F - 32) · 5/9</strong></li>
+      </ol>
+      <p>
+        <br>I den här bilden ser vi en normal formel som ingår inom termofysik. Det är formeln för den specifika värmekapaciteten.<br>
       </p>
       <br><center><img src="img/specifik värmekapacitet.jfif" id="termoimg" /></center>
     </div>
+      <form onsubmit="return rättaQuiz('alt1_1', 'alt3_2', 'alt2_3')">
+        <h1><center>Quiz test</center></h1><br>
+        
+        <fieldset>
+          
+          <legend><span class="nummerquiz">1</span><strong>Vilken av följande är INTE en temperaturskala?</strong></legend><br>
+
+          <input type="radio" id="alt1_1" value="alt1_1" name="fr1"><label for="alt1_1" class="alter">Joule</label><br>
+          <input type="radio" id="alt2_1" value="alt2_1" name="fr1"><label for="alt2_1" class="alter">Fahrenheit</label><br>
+          <input type="radio" id="alt3_1" value="alt3_1" name="fr1"><label for="alt3_1" class="alter">Kelvin</label><br>
+
+          <p id="frga1"></p>
+            
+
+
+          <br><legend><span class="nummerquiz">2</span><strong>Vad är temperaturen på den absoluta nollpunkten?</strong></legend><br>
+
+          <input type="radio" id="alt1_2" value="alt1_2" name="fr2"><label for="alt1_2" class="alter">-61°C</label><br>
+          <input type="radio" id="alt2_2" value="alt2_2" name="fr2"><label for="alt2_2" class="alter">0°C</label><br>
+          <input type="radio" id="alt3_2" value="alt3_2" name="fr2"><label for="alt3_2" class="alter">-273°C</label><br>
+
+          <p id="frga2"></p>
+
+
+
+          <br><legend><span class="nummerquiz">3</span><strong>Om man tillför 5000 J värmeenergi till 2 kg vatten och dess temperatur ökar med 10°C, vad blir den specifika värmekapaciteten?</strong></legend><br>
+
+          <input type="radio" id="alt1_3" value="alt1_3" name="fr3"><label for="alt1_3" class="alter">100 J/kg°C</label><br>
+          <input type="radio" id="alt2_3" value="alt2_3" name="fr3"><label for="alt2_3" class="alter">200 J/kg°C</label><br>
+          <input type="radio" id="alt3_3" value="alt3_3" name="fr3"><label for="alt3_3" class="alter">250 J/kg°C</label><br>
+
+          <p id="frga3"></p>
+          
+        </fieldset>
+        
+        <button type="submit" id="svar_knapp">RÄTTA</button>
+
+        <div id="poangBox">
+          <h2>Resultat</h2>
+          <p id="resultatText">...</p>
+        </div>
+      </form>
+      <script src="quizer.js"></script>
   </body>
 </html>
