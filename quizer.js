@@ -1,4 +1,4 @@
-function rättaQuiz() {
+function rättaQuiz(svar1, svar2, svar3) {
     let poäng = 0;
     let total = 3;
     let outcome1 = "";
@@ -6,9 +6,9 @@ function rättaQuiz() {
     let outcome3 = "";
   
     const rättSvar = {
-        fr1: "alt2_1",
-        fr2: "alt1_2",
-        fr3: "alt1_3"
+        fr1: svar1,
+        fr2: svar2,
+        fr3: svar3
     };
 
     const fr1 = document.querySelector('input[name="fr1"]:checked');
