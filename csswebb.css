@@ -1,3 +1,6 @@
+
+/*-- Fysiknu --*/
+
 * {
   margin: 0;
   padding: 0;
@@ -116,8 +119,13 @@ main {
   margin: 1rem 1rem auto;
 }
 
+#tillbaka {
+  font-size: 12px;
+  color: #000000
+}
 
-/*-- QUIZ --*/
+
+/*-- Quizen --*/
 
 .alter {
   font-weight: 300;
@@ -160,9 +168,17 @@ form {
   margin-bottom: 10px;
 }
 
-/*----- */
 
-/*
-.app
-#webby
-*/
+
+
+/*-- Media query --*/
+
+@media screen and (max-width: 524px) {
+  #amne {
+  display: inline;
+  border-radius: 12px 12px 12px 12px;
+  text-shadow: 0px 2px 2px #000000;
+  padding: 6rem 1rem;
+  margin: 3rem 4rem auto;
+  }
+}
