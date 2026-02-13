@@ -78,13 +78,6 @@ main {
   margin: 25px;
 }
 
-
-#amne {
-  display: grid;
-  grid-template-columns: auto auto;
-  grid-gap: 20px;
-}
-
 #amne a {
   display: block;
   border-radius: 12px 12px 12px 12px;
@@ -176,17 +169,18 @@ form {
   margin-bottom: 10px;
 }
 
-
-
-
 /*-- Media query --*/
 
-@media screen and (max-width: 524px) {
+@media screen and (width <= 480px) {
   #amne {
-  display: inline;
-  border-radius: 12px 12px 12px 12px;
-  text-shadow: 0px 2px 2px #000000;
-  padding: 6rem 1rem;
-  margin: 3rem 4rem auto;
+    display: block;
+  }
+}
+
+@media screen and (width >= 1280px) {
+  #amne {
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-gap: 20px;
   }
 }
